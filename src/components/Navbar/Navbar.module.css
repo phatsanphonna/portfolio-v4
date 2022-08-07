@@ -1,0 +1,17 @@
+.root {
+    @apply w-screen h-16;
+    @apply bg-white;
+}
+
+.wrapper {
+    @apply container mx-auto;
+    @apply h-full;
+    @apply px-4;
+
+    @apply flex flex-row;
+    @apply justify-between items-center;
+}
+
+.title {
+    @apply font-semibold text-xl;
+}

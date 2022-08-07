@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Niramit", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  @apply transition-all;
+
+  @apply h-8 w-auto;
+  @apply px-2;
+  @apply rounded;
+
+  @apply hover:drop-shadow;
+}
+
+.btn-primary {
+  @apply bg-blue-500;
+  @apply text-white;
+  @apply hover:ring hover:ring-blue-200;
+}
