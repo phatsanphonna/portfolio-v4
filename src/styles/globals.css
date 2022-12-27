@@ -6,7 +6,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Niramit", sans-serif;
+  font-family: 'LINE Seed Sans TH', sans-serif;
 }
 
 a {
@@ -32,4 +32,9 @@ a {
   @apply bg-blue-500;
   @apply text-white;
   @apply hover:ring hover:ring-blue-200;
+}
+
+hr {
+  @apply w-32 border-4;
+  @apply border-black;
 }

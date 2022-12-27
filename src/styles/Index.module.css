@@ -1,0 +1,10 @@
+.title {
+    @apply text-5xl md:text-6xl font-extrabold text-center;
+    @apply flex flex-col;
+    @apply text-black;
+}
+
+.card_container {
+    @apply w-full;
+    @apply grid grid-cols-1 place-items-center gap-6;
+}

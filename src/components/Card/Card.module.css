@@ -1,0 +1,20 @@
+.container {
+    @apply cursor-pointer;
+    @apply transition-all;
+    @apply w-80 md:w-96 h-20;
+    @apply bg-white hover:bg-pink-500;
+    @apply text-black hover:text-white;
+    @apply flex flex-row items-center gap-4;
+    @apply p-4;
+    @apply border-4 border-black;
+    @apply shadow-[10px_10px_rgba(0,0,0,1)] hover:shadow-[15px_15px_rgba(0,0,0,1)];
+}
+
+.icon {
+    @apply text-4xl;
+}
+
+.sns_link {
+    @apply text-xl;
+    @apply font-semibold;
+}

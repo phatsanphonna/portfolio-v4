@@ -1,0 +1,13 @@
+.footer {
+    @apply w-screen;
+    @apply bg-blue-500;
+    @apply h-20;
+}
+
+.wrapper {
+    @apply h-full;
+    @apply container mx-auto;
+    @apply flex flex-col justify-center;
+
+    @apply text-white;
+}
