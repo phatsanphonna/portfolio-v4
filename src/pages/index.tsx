@@ -10,7 +10,7 @@ const socialMediaLink = [
   {
     icon: faImage,
     url: 'https://gallery.phatsanphon.com',
-    username: 'My Gallery'
+    username: 'My Photographic Gallery'
   },
   {
     icon: faInstagram,
