@@ -4,7 +4,7 @@ import type { NextPage } from 'next'
 import styles from '@styles/Index.module.css'
 import Card from '@components/Card'
 import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faAt, faImage } from '@fortawesome/free-solid-svg-icons'
+import { faAt, faFile, faImage } from '@fortawesome/free-solid-svg-icons'
 
 const socialMediaLink = [
   {
@@ -26,6 +26,11 @@ const socialMediaLink = [
     icon: faAt,
     url: 'mailto:phatsanphon2004@outlook.com',
     username: 'phatsanphon2004\n@outlook.com'
+  },
+  {
+    icon: faFile,
+    url: '/resume.pdf',
+    username: 'Resume'
   },
 ]
 
